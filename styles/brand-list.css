@@ -1,0 +1,19 @@
+.section__brands {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -120px;
+	left: 18%;
+	right: 0;
+}
+
+.brand-list {
+	display: flex;
+	align-items: center;
+	gap: 64px;
+	background-color: #fff;
+	padding: 64px;
+}
+
+.brand-list__item {
+	list-style-type: none;
+}

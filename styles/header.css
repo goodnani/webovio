@@ -1,0 +1,45 @@
+.header {
+	background-color: #4d533c;
+}
+
+.header__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	width: 40px;
+	height: 40px;
+	background-color: #f5f6f7;
+	border-radius: 50%;
+	position: relative;
+}
+
+.menu__hamburger {
+	width: 18px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	right: 50%;
+	margin-right: -9px;
+}
+
+.menu__hamburger::before,
+.menu__hamburger::after {
+	content: "";
+	width: 18px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+}
+
+.menu__hamburger::before {
+	top: -4px;
+}
+
+.menu__hamburger::after {
+	top: 4px;
+}

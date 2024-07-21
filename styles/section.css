@@ -1,0 +1,17 @@
+.section {
+	color: purple;
+}
+
+.section_show {
+	background: url("../assets/images/background1.png");
+	height: 100vh;
+	position: relative;
+}
+
+.section__title-block {
+	padding-top: 120px;
+}
+
+.section__title-wrap {
+	width: 616px;
+}

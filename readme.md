@@ -1,6 +1,6 @@
 # webovio
 
-## Install
+## Start
 
 ```sh
 npx live-server .
